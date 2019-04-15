@@ -1,1 +1,19 @@
 // Mixins Here
+.center-content(@center){
+    display:flex;
+    justify-content: @center;
+}
+.border(@pixel,@border,@color){
+    border:@pixel @border @color;
+}
+
+.button(@btn-bg-color,@wild-sand){
+width:100px;
+height:40px;
+border-radius:5px;
+color:white;
+font-size:20px;
+line-height:35px;
+text-align:@justify;
+background-color:@btn-bg-color;
+}

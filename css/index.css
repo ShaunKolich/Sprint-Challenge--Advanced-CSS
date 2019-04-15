@@ -260,3 +260,50 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+/* 500 width*/
+@media (max-width:500px) {
+  .home {
+    width: 100%;
+  }
+  .home .nav_top {
+    width: 100%;
+  }
+  .home .middle_img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .home .space-images {
+    width: 100%;
+  }
+  .home .space-images .blast {
+    width: 100%;
+  }
+  .home .space-images .sky {
+    display: none !important;
+  }
+  .home .space-images .launch {
+    display: none !important;
+  }
+  .home .walk {
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+  }
+  .home .walk .walk-text {
+    margin-left: -50px;
+    width: 440px;
+  }
+  .home .walk .walk-img {
+    margin-left: -50px;
+    width: 440px;
+    order: -1;
+  }
+  .home .walk .btn {
+    width: 100%;
+  }
+  .home .walk .btn p {
+    height: 70px!important;
+    width: 440px!important;
+    line-height: 75px!important;
+  }
+}
